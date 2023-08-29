@@ -3,14 +3,5 @@
 *{
     margin: 0;
     font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
-}
-
-header{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-image: url(img/bgMAIN.png);
 }
 
