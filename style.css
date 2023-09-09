@@ -177,11 +177,11 @@ nav{
     height: 50px;
 }
 
-/*
 .off-scroll{
     overflow: hidden;
 }
-*/
+
+
 
 
 .planet{
@@ -528,4 +528,8 @@ footer{
         font-size: 15px;
     }
  
+}
+
+.btn-hide{
+    display: none;
 }

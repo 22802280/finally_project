@@ -2,6 +2,9 @@
 document.querySelector(".mobile-button").addEventListener("click", function(event)
 {
     document.querySelector(".mobile-menu").classList.toggle("hide");
+    document.querySelectorAll(".mobile-btn").forEach(function(item){
+      item.classList.toggle('btn-hide');
+    })
 });
 
 let menu = document.querySelector(".fixed-menu");
